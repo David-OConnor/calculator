@@ -2,5 +2,5 @@
 Type=Application
 Terminal=false
 Name=Jupyter-calculator
-Icon=./jupyter.ico
-Exec=./run.sh
+Icon=../icons/jupyter.ico
+Exec=./run_qtconsole.sh
