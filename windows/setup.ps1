@@ -8,10 +8,10 @@ Pop-Location
 # Download wheels for Scipy and Numpy+MKL from Chris Gohlke's site; pypi doesn't have a Windows Scipy
 # wheel, and Chris Gohlke's Scipy wheel requires numpy+MKL, which isn't on Pypi.
 echo "Downloading Numpy+MKL from Chris Gohlke's site: http://www.lfd.uci.edu/~gohlke/pythonlibs..."
-#Invoke-WebRequest -Uri "http://www.lfd.uci.edu/~gohlke/pythonlibs/hkfh9m5o/numpy-1.13.1+mkl-cp36-cp36m-win_amd64.whl" -OutFile $PSScriptRoot/numpy-1.13.1+mkl-cp36-cp36m-win_amd64.whl
+Invoke-WebRequest -Uri "http://www.lfd.uci.edu/~gohlke/pythonlibs/hkfh9m5o/numpy-1.13.1+mkl-cp36-cp36m-win_amd64.whl" -OutFile $PSScriptRoot/numpy-1.13.1+mkl-cp36-cp36m-win_amd64.whl
 
 echo "Download Scipy from Chris Gohlke's site: http://www.lfd.uci.edu/~gohlke/pythonlibs..."
-#Invoke-WebRequest -Uri "http://www.lfd.uci.edu/~gohlke/pythonlibs/hkfh9m5o/scipy-1.0.0b1-cp36-cp36m-win_amd64.whl" -OutFile $PSScriptRoot/scipy-1.0.0b1-cp36-cp36m-win_amd64.whl
+Invoke-WebRequest -Uri "http://www.lfd.uci.edu/~gohlke/pythonlibs/hkfh9m5o/scipy-1.0.0b1-cp36-cp36m-win_amd64.whl" -OutFile $PSScriptRoot/scipy-1.0.0b1-cp36-cp36m-win_amd64.whl
 
 echo "Downloading and installing the Scipy stack..."
 
