@@ -1,3 +1,3 @@
 ﻿source ../venv/bin/activate
 
-jupyter qtconsole
+jupyter qtconsole --config="../jupyter_qtconsole_config.py"

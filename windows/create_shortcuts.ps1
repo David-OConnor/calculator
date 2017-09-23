@@ -16,7 +16,7 @@ $ScriptLocation = "$PSScriptRoot/run_spyder.ps1"
 $Shortcut.TargetPath = "powershell.exe"
 $Shortcut.Arguments = "-WindowStyle Hidden -command $ScriptLocation"
 $Shortcut.WorkingDirectory = "$PSScriptRoot/../"
-$ShortCut.IconLocation = "$PSScriptRoot/../icons/spyder.ico"
+$ShortCut.IconLocation = "$PSScriptRoot/../icons/spyder3.ico"
 $ShortCut.Description = "Spyder"
 $Shortcut.Save()
 

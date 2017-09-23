@@ -9,7 +9,7 @@ Only compatible with Python versions greater than 3.3. 'python' and 'pip'
 must be exposed to your system path. ('python3' and 'pip3' if using Linux.)
 
 Special thanks to Chris Gohlke, for maintaining the working Scipy wheel 
-for Windows downloadedby this script: PyPi doesn't have one. (CAO Sept 2017)
+for Windows downloaded by this script: PyPi doesn't have one. (CAO Sept 2017)
 
 
 Installation instructions for Windows:
