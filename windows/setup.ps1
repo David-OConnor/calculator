@@ -26,9 +26,6 @@ Push-Location $PSScriptRoot/../
 pip install -r requirements.txt
 Pop-Location
 
-# echo "Configuring ipython profile..."
-# Import-Module $PSScriptRoot/config_ipython_profile.ps1
-
 echo "Creating shortcuts on the desktop..."
 Import-Module $PSScriptRoot/create_shortcuts.ps1
 
