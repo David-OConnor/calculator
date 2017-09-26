@@ -18,16 +18,16 @@ Installation instructions for Windows:
 - Run the powershell script setup.ps1 under the windows subdirectory.
 (You can run it by right clicking, and selecting 'Run with Powershell'. )
 
-- You should now have shortcuts on your desktop for Jupyter qtconsole and Spyder, 
+You should now have shortcuts on your desktop for Jupyter qtconsole and Spyder, 
 inside their own venv with the Scipy stack. Place these where you'd like 
 (pin to Start etc). If you'd like to regenerate the shortcuts later or if you change the virtual env's
 directory, run create_shortcuts.ps1.
 
-*Windows gotchas*: 
+*Windows gotchas*:
+
 - If the shortcut doesn't launch, you may need to run the command:
 `Set-ExecutionPolicy Unrestricted` while running Powershell as an administrator.
 You only need to do this once.
-
 - You need to have C build tools installed; if you don't, you'll receive an error,
 with a link to download it.
 
