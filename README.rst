@@ -25,9 +25,10 @@ directory, run create_shortcuts.ps1.
 
 *Windows gotchas*:
 
-- If the shortcut doesn't launch, you may need to run the command:
-`Set-ExecutionPolicy Unrestricted` while running Powershell as an administrator.
+- If the shortcut doesn't launch, you may need to run the command: `Set-ExecutionPolicy Unrestricted` 
+while running Powershell as an administrator.
 You only need to do this once.
+
 - You need to have C build tools installed; if you don't, you'll receive an error,
 with a link to download it.
 
