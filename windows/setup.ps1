@@ -31,6 +31,6 @@ echo "Creating shortcuts on the desktop..."
 Import-Module $PSScriptRoot/create_shortcuts.ps1
 
 echo "Removing Numpy+MKL and Scipy Wheels"
-# Import-Module $PSScriptRoot/cleanup.ps1
+Import-Module $PSScriptRoot/cleanup.ps1
 
 echo "Complete"
