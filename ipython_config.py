@@ -43,7 +43,7 @@ c.InteractiveShellApp.exec_lines = [
     'from matplotlib import pyplot as plt',
     'import fplot',
 
-    # Mathematical constants. Import before e, so e is 2.72, not elementary charge.
+    # Math and scientific constants. Import scipy.constants before e, so e is 2.72, not elementary charge.
     'from scipy.constants import *',
     'ħ = hbar',  # hbar is imported from scipy.constants
     'ε_0 = epsilon_0', # from scipy.constants

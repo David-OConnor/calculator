@@ -1,5 +1,5 @@
-This package is used to setup  a virtual environment 
-for running mathy scripts in a jupyter qtconsole or spyder IDE. The intent
+This package is sets up  a virtual environment 
+for running math/science scripts in a jupyter qtconsole or spyder IDE. The intent
 is to provide a quick setup for these tools, for a calcultor-like setting.
 
 It creates a virtual environment, downloads the Scipy stack, Qt, and Spyder,
@@ -14,21 +14,26 @@ for Windows downloaded by this script: PyPi doesn't have one. (CAO Sept 2017)
 
 Installation instructions for Windows:
 --------------------------------------
--Download or clone the repo. 
--Run the powershell script setup.ps1 under the windows subdirectory.
+- Download or clone the repo. 
+- Run the powershell script setup.ps1 under the windows subdirectory.
 (You can run it by right clicking, and selecting 'Run with Powershell'. )
 
--You should now have shortcuts on your desktop for Jupyter qtconsole and Spyder, 
+- You should now have shortcuts on your desktop for Jupyter qtconsole and Spyder, 
 inside their own venv with the Scipy stack. Place these where you'd like 
-(pin to Start etc).
-If you'd like to regenerate the shortcuts later or if you change the virtual env's
+(pin to Start etc). If you'd like to regenerate the shortcuts later or if you change the virtual env's
 directory, run create_shortcuts.ps1.
 
-Note: If the shortcut doesn't launch, you may need to run the command:
-Set-ExecutionPolicy Unrestricted
-while running Powershell as an administrator.
+*Windows gotchas*: 
+- If the shortcut doesn't launch, you may need to run the command:
+`Set-ExecutionPolicy Unrestricted` while running Powershell as an administrator.
+You only need to do this once.
+
+- You need to have C build tools installed; if you don't, you'll receive an error,
+with a link to download it.
 
 
 Installation instructions for Linux:
 --------------------------------------
--In progress
+In progress. If you're on Linux and can test/fix the Bash scripts, please submit a pull.
+
+
