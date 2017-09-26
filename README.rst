@@ -4,6 +4,9 @@ is to provide a quick setup for these tools, for a calcultor-like setting.
 
 It creates a virtual environment, downloads the Scipy stack, Qt, and Spyder,
 and creates shortcuts that run the Jupyter qtconsole or Spyder inside this environment.
+When loading Jupyter qtconsole, common math/sci packages and variables will be exposed,
+eg numpy as np, pandas as pd, sympy as sp; pi, cos, sin etc from numpy, and everything
+in the scipy.constants module.
 
 Only compatible with Python versions greater than 3.3. 'python' and 'pip'
 must be exposed to your system path. ('python3' and 'pip3' if using Linux.)

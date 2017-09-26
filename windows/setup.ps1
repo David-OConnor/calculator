@@ -27,6 +27,8 @@ Push-Location $PSScriptRoot/../
 pip install -r requirements.txt
 Pop-Location
 
+deactivate
+
 echo "Creating shortcuts on the desktop..."
 Import-Module $PSScriptRoot/create_shortcuts.ps1
 

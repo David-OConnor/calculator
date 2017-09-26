@@ -56,7 +56,7 @@ c.InteractiveShellApp.exec_lines = [
     'i = complex(0, 1)',
 
     # Sympy
-    'import sympy',
+    'import sympy as sp',
     'from sympy import diff, integrate, exp, oo, sin as ssin, cos as scos, \
         tan as stan, asin as sasin, acos as sacos, atan as satan, Matrix, simplify, \
         lambdify, Integral, Derivative, factor, expand, limit, var, Eq, N, \

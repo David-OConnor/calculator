@@ -9,6 +9,8 @@ echo "Downloading and installing the Scipy stack..."
 source DIR/../venv/bin/activate
 pip3 install -r requirements.txt
 
+deactivate
+
 # echo "Configuring ipython profile..."
 # sh ./config_ipython_profile.sh
 
