@@ -1,5 +1,4 @@
 ﻿echo "Creating virtual environment..."
-#cd $PSScriptRoot/..
 
 Push-Location $PSScriptRoot/../
 python -m venv venv
@@ -17,9 +16,11 @@ echo "Downloading and installing the Scipy stack..."
 
 Import-Module $PSScriptRoot/../venv/Scripts/Activate.ps1
 
+Push-Location $PSScriptRoot/
 # Install the wheels we downloaded
 pip install numpy-1.13.1+mkl-cp36-cp36m-win_amd64.whl
 pip install scipy-1.0.0b1-cp36-cp36m-win_amd64.whl
+Pop-Location
 
 # Install the rest of the Scipy stack through pip.
 Push-Location $PSScriptRoot/../
@@ -30,7 +31,6 @@ echo "Creating shortcuts on the desktop..."
 Import-Module $PSScriptRoot/create_shortcuts.ps1
 
 echo "Removing Numpy+MKL and Scipy Wheels"
-rm $PSScriptRoot/numpy-1.13.1+mkl-cp36-cp36m-win_amd64.whl
-rm $PSScriptRoot/scipy-1.0.0b1-cp36-cp36m-win_amd64.whl
+# Import-Module $PSScriptRoot/cleanup.ps1
 
 echo "Complete"
