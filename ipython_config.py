@@ -66,8 +66,8 @@ c.InteractiveShellApp.exec_lines = [
         solveset, linsolve, roots, dsolve, symbols, log as slog, sqrt as ssqrt, \
         cbrt, pi as spi, Rational, linsolve, I',
     'from sympy.plotting import plot',
-    "x, y, z, t = sympy.symbols('x y z t')",
-    'sympy.init_printing()',
+    "x, y, z, t = sp.symbols('x y z t')",
+    'sp.init_printing()',
 ]
 
 ## lines of code to run at IPython startup.
