@@ -29,45 +29,8 @@
 c.InteractiveShellApp.exec_lines = [
     '%load_ext autoreload',
     '%autoreload 2',
-
-    # Arrays, dataframes, and trig functions
-    'import numpy as np',
-    'from numpy import array, linspace, arange, zeros, ones, \
-        eye, sin, cos, tan, arcsin, arccos, arctan, arctan2, log, sqrt',
-    'np.set_printoptions(suppress=True, precision=4)',
-    'import pandas as pd',
-    'from pandas import DataFrame, Series',
-
-    # Plotting
-    'import matplotlib',
-    'from matplotlib import pyplot as plt',
-    'import fplot',
-
-    # Scientific constants. Import scipy.constants before e, so e is 2.72, not elementary charge.
-    'from scipy.constants import *',
-    'ħ = hbar',  # hbar is imported from scipy.constants
-    'ε_0 = epsilon_0', # from scipy.constants
-    'Å = angstrom', # from scipy.constants
-    'α = alpha', # from scipy.constants
-    
-    # Mathematical constants
-    'import math',
-    'import cmath',
-    'from math import e, pi',
-    'tau = 2 * pi',
-    'π, τ = pi, tau',
-    'i = complex(0, 1)',
-
-    # Sympy
-    'import sympy as sp',
-    'from sympy import diff, integrate, exp, oo, sin as ssin, cos as scos, \
-        tan as stan, asin as sasin, acos as sacos, atan as satan, Matrix, simplify, \
-        lambdify, Integral, Derivative, factor, expand, limit, var, Eq, N, \
-        solveset, linsolve, roots, dsolve, symbols, log as slog, sqrt as ssqrt, \
-        cbrt, pi as spi, Rational, linsolve, I',
-    'from sympy.plotting import plot',
-    "x, y, z, t = sp.symbols('x y z t')",
-    'sp.init_printing()',
+    # Load a combination of general, numeric, and symbolic imports and vars.
+    'from general_imports import *'
 ]
 
 ## lines of code to run at IPython startup.
