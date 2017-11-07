@@ -6,7 +6,8 @@ from sympy import diff, integrate, exp, oo, sin, cos, tan, asin, acos, atan, \
 Matrix, simplify, lambdify, Integral, Derivative, factor, expand, limit, var, Eq, N, \
     solveset, linsolve, roots, dsolve, symbols, log, sqrt, cbrt, pi, Rational, linsolve, I
 
-π = pi
+tau = 2 * pi
+π, τ = pi, tau
 i = I
 
 from sympy.plotting import plot

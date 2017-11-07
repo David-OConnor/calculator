@@ -1,5 +1,4 @@
 ﻿echo "Creating virtual environment..."
-#cd $PSScriptRoot/..
 
 Push-Location $PSScriptRoot/../
 python -m venv venv

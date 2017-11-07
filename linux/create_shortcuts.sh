@@ -1,4 +1,4 @@
-﻿[Desktop Entry]
+[Desktop Entry]
 Type=Application
 Terminal=false
 Name=Jupyter-calculator

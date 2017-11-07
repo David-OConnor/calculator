@@ -1,5 +1,8 @@
-﻿DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+#!/bin/bash
 
-source DIR/../venv/bin/activate
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+source $DIR/../venv/bin/activate
+cd $DIR/..
 
 spyder3

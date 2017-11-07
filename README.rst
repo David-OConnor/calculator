@@ -8,6 +8,9 @@ and creates shortcuts that run the Jupyter qtconsole or Spyder inside this envir
 Only compatible with Python versions greater than 3.3. 'python' and 'pip'
 must be exposed to your system path. ('python3' and 'pip3' if using Linux.)
 
+To by default, functions like sin, cos etc, and constants like pi and i will be tied
+to numerical (ie numpy) funcs and constants. To switch, run 'from sym import *'; 
+they will then by tied to Sympy. To revert, run 'from num import *'.
 
 Installation instructions for Windows:
 --------------------------------------
@@ -27,5 +30,13 @@ while running Powershell as an administrator.
 
 
 Installation instructions for Linux:
---------------------------------------
--In progress
+------------------------------------
+-Run the shell script setup.sh under the linux subdirectory.
+(ie executing ./linux/setup.sh in a terminal)
+-Edit the .desktop entries in the linux subdirectory to refer to the hard-coded icon
+and executable paths here.
+
+Note: Some Linux distros like Ubuntu do not include pip and virtual environment
+support by default, despite them being built into python. You may install them with
+the commands 'sudo apt install python-pip3' and 'sudo apt install 'python3-venv' respectively.
+These must be setup first, or the setup will fail.

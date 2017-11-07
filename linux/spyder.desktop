@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=Spyder-calculator
+Icon=/home/david/code/calculator/icons/spyder3.png
+Exec=/home/david/code/calculator/linux/run_spyder.sh

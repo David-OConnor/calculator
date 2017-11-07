@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=Jupyter-calculator
+Icon=/home/david/code/calculator/icons/jupyter.png
+Exec=/home/david/code/calculator/linux/run_qtconsole.sh

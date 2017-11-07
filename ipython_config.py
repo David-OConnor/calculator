@@ -30,7 +30,8 @@ c.InteractiveShellApp.exec_lines = [
     '%load_ext autoreload',
     '%autoreload 2',
     # Load a combination of general, numeric, and symbolic imports and vars.
-    'from general_imports import *'
+    'from general_imports import *',
+    'from num import *'
 ]
 
 ## lines of code to run at IPython startup.
