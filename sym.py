@@ -3,8 +3,10 @@ import sympy
 
 
 from sympy import diff, integrate, exp, oo, sin, cos, tan, asin, acos, atan, \
-Matrix, simplify, lambdify, Integral, Derivative, factor, expand, limit, var, Eq, N, \
-    solveset, linsolve, roots, dsolve, symbols, log, sqrt, cbrt, pi, Rational, linsolve, I
+    csc, sec, cot, coth, sinh, sech, \
+    Matrix, simplify, lambdify, Integral, Derivative, factor, expand, limit, var, Eq, N, \
+    solveset, linsolve, roots, dsolve, symbols, log, sqrt, cbrt, pi, Function, Rational, \
+    linsolve, I, re, im, re as real, im as imag
 
 tau = 2 * pi
 π, τ = pi, tau
