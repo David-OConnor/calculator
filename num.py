@@ -7,7 +7,7 @@ from scipy.constants import *
 Å = angstrom # from scipy.constants
 
 from numpy import array, linspace, arange, zeros, ones, diff, real, imag, \
-    eye, sin, cos, tan, arcsin, arccos, arctan, arctan2,  arcsin as asin, \
+    eye, sin, cos, tan, arcsin, arccos, arctan, arctan2, arcsin as asin, \
     arccos as acos, arctan as atan, sinh, cosh, tanh, \
     log, sqrt, \
     e, pi, exp
@@ -26,7 +26,7 @@ tau = 2 * pi
 i = complex(0, 1)
 
 
-# Temp? OR should I keep it?
+import scinot
 
 def asquare(*items):
     """Helper for making square arrays."""

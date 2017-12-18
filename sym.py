@@ -3,7 +3,8 @@ import sympy
 
 
 from sympy import diff, integrate, exp, oo, sin, cos, tan, asin, acos, atan, \
-    csc, sec, cot, coth, sinh, sech, \
+    asin as arcsin, acos as arccos, atan as arctan, \
+    csc, sec, cot, coth, sinh, cosh, tanh, sech, \
     Matrix, simplify, lambdify, Integral, Derivative, factor, expand, limit, var, Eq, N, \
     solveset, linsolve, roots, dsolve, symbols, log, sqrt, cbrt, pi, Function, Rational, \
     linsolve, I, re, im, re as real, im as imag
