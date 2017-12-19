@@ -1,0 +1,23 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+scipy-stack = ">=0.0.4"
+pyqt5 = ">=5.8.2"
+spyder = ">=3.2.3"
+scinot = ">=0.0.5"
+fplot = ">=0.1.1"
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "3.6"

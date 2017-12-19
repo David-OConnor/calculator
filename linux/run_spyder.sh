@@ -2,7 +2,5 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-source $DIR/../venv/bin/activate
 cd $DIR/..
-
-spyder3
+pipenv run spyder3

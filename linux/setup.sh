@@ -2,16 +2,16 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+echo "Making sure Pipenv is installed..."
+pip3 install --user pipenv
+
 cd $DIR/..
 
-echo "Creating virtual environment..."
-python3 -m venv venv
+echo "Creating virtual environment with Pipenv..."
+pipenv --three
 
 echo "Downloading and installing the Scipy stack..."
-source $DIR/../venv/bin/activate
-pip3 install -r requirements.txt
-
-deactivate
+pipenv install
 
 chmod 0744 run_qtconsole.sh
 chmod 0744 run_spyder.sh 

@@ -1,15 +1,13 @@
-﻿echo "Creating virtual environment..."
+﻿echo "Making sure Pipenv is installed..."
+pip install --user pipenv
 
 Push-Location $PSScriptRoot/../
-python -m venv venv
-Pop-Location
+
+echo "Creating virtual environment with Pipenv..."
+pipenv --three
 
 echo "Downloading and installing the Scipy stack..."
-
-Import-Module $PSScriptRoot/../venv/Scripts/Activate.ps1
-
-Push-Location $PSScriptRoot/../
-pip install -r requirements.txt
+pipenv install
 Pop-Location
 
 echo "Creating shortcuts on the desktop..."

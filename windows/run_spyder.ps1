@@ -1,3 +1,3 @@
-﻿Import-Module $PSScriptRoot/../venv/Scripts/Activate.ps1
+﻿Push-Location $PSScriptRoot/../
 
-spyder3
+pipenv run spyder3

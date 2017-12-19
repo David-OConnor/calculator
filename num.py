@@ -27,6 +27,7 @@ i = complex(0, 1)
 
 
 import scinot
+scinot.start()
 
 def asquare(*items):
     """Helper for making square arrays."""

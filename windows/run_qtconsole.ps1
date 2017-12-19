@@ -1,3 +1,3 @@
-﻿Import-Module $PSScriptRoot/../venv/Scripts/Activate.ps1
+﻿Push-Location $PSScriptRoot/../
 
-jupyter qtconsole --config="$PSScriptRoot/../jupyter_qtconsole_config.py"
+pipenv run jupyter qtconsole --config="$PSScriptRoot/../jupyter_qtconsole_config.py"
