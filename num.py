@@ -2,15 +2,16 @@
 
 # Scientific constants. Import before e, so e is 2.72, not elementary charge.
 from scipy.constants import *
-ħ = hbar  # hbar is imported from scipy.constants
-ε_0 = epsilon_0 # from scipy.constants
-Å = angstrom # from scipy.constants
+# Assign special characters to values from scipy.constants.
+ħ = hbar
+ε_0 = epsilon_0
+Å = angstrom
+α = alpha
 
 from numpy import array, linspace, arange, zeros, ones, diff, real, imag, \
     eye, sin, cos, tan, arcsin, arccos, arctan, arctan2, arcsin as asin, \
     arccos as acos, arctan as atan, sinh, cosh, tanh, \
-    log, sqrt, \
-    e, pi, exp
+    log, log10, sqrt, e, pi, exp
 
 # Numpy doest include these trig functions by default.
 csc = lambda x: 1 / sin(x)

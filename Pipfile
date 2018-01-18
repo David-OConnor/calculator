@@ -8,10 +8,11 @@ name = "pypi"
 [packages]
 
 scipy-stack = ">=0.0.4"
-pyqt5 = ">=5.8.2"
+"pyqt5" = ">=5.8.2"
 spyder = ">=3.2.3"
 scinot = ">=0.0.5"
 fplot = ">=0.1.1"
+numpy = "*"
 
 
 [dev-packages]

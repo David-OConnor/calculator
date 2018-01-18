@@ -13,6 +13,8 @@ pipenv --three
 echo "Downloading and installing the Scipy stack..."
 pipenv install
 
+cd linux
+
 chmod 0744 run_qtconsole.sh
 chmod 0744 run_spyder.sh 
 
