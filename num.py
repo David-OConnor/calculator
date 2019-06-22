@@ -25,6 +25,7 @@ coth = lambda x: 1 / tanh(x)
 tau = 2 * pi
 π, τ = pi, tau
 i = complex(0, 1)
+μ_0 = mu_0
 
 
 import scinot

@@ -13,9 +13,6 @@ np.set_printoptions(suppress=True, precision=5)
 
 import sympy as sp
 
-import pandas as pd
-from pandas import DataFrame, Series
-
 # Plotting
 import matplotlib
 from matplotlib import pyplot as plt
