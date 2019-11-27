@@ -8,6 +8,8 @@ import cmath
 
 from math import factorial
 
+import siunits as si
+
 import numpy as np
 np.set_printoptions(suppress=True, precision=5)
 

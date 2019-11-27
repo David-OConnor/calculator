@@ -1,3 +1,3 @@
 ﻿Push-Location $PSScriptRoot/../
 
-pipenv run jupyter qtconsole --config="$PSScriptRoot/../jupyter_qtconsole_config.py"
+pypackage run ipython qtconsole --config="../jupyter_qtconsole_config.py"

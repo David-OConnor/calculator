@@ -2,16 +2,8 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-echo "Making sure Pipenv is installed..."
-pip3 install --user pipenv
-
-cd $DIR/..
-
-echo "Creating virtual environment with Pipenv..."
-pipenv --three
-
-echo "Downloading and installing the Scipy stack..."
-pipenv install
+cd $DIR
+pypackage install
 
 cd linux
 

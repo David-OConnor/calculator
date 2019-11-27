@@ -1,0 +1,17 @@
+[tool.pyflow]
+name = "Calculator"
+py_version = "3.7"
+version = "0.0.9"
+author = "David O'Connor"
+
+[tool.pyflow.dependencies]
+numpy = "^1.16.4"
+scipy = "^1.3.0"
+matplotlib = "^3.1.0"
+ipython = {version = "^7.7.0", extras= ["qtconsole"]}
+pyqt5 = "^5.8.2"
+spyder = "^3.2.3"
+scinot = "^0.0.5"
+fplot = "^0.1.1"
+sympy = "^1.4"
+siunits = "^0.0.4"
