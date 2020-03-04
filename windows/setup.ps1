@@ -1,6 +1,6 @@
 Push-Location $PSScriptRoot/../
 
-pypackage install
+pyflow install
 Pop-Location
 
 echo "Creating shortcuts on the desktop..."

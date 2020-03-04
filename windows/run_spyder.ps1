@@ -1,3 +1,3 @@
 ﻿Push-Location $PSScriptRoot/../
 
-pipenv run spyder3
+pyflow spyder3

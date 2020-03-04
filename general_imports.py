@@ -17,5 +17,6 @@ import sympy as sp
 
 # Plotting
 import matplotlib
+matplotlib.use('Qt5Agg')
 from matplotlib import pyplot as plt
 import fplot
